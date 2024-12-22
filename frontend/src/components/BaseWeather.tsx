@@ -17,10 +17,10 @@ const BaseWeather = (props: Props) => {
       else return "27";
     }
   return (
-    <div className="flex flex-col gap-6 justify-center items-center group relative w-full max-w-80 p-6 rounded-lg shadow-lg bg-gray-800 hover:shadow-xl hover:scale-105 transition duration-300 ">
+    <div className="flex flex-col gap-6 justify-center items-center group relative w-full md:max-w-[30%] p-6 rounded-lg shadow-lg bg-gray-800 hover:shadow-xl hover:scale-105 transition duration-300 ">
 
     {/* City Name */}
-    <div className="text-lg font-semibold text-white group-hover:text-gray-200 transition duration-300">
+    <div className="text-lg md:text-4xl font-semibold text-white group-hover:text-gray-200 transition duration-300">
       {props.name || defaultName}
     </div>
   

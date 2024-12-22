@@ -8,8 +8,8 @@ const router = express.Router();
 const handleError = (res, error) => {
   console.error("Error:", error.message);
   // Check if error message is related to geocoding or weather
-  if (error.message.includes("city")) {
-    return res.status(404).json({ error: "City not found or invalid." });
+  if (error.message.toLowerCase().includes("city")) {
+    return res.status(404).json({ error: "City not found or invalid city." });
   }
   if (error.message.includes("weather")) {
     return res.status(500).json({ error: "Unable to fetch weather data." });

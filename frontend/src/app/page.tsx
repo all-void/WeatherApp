@@ -1,6 +1,5 @@
 "use client";
 import Navbar from "@/components/Navbar";
-import Temperature from "@/components/BaseWeather";
 import WeatherDisplay from "@/components/WeatherDisplay";
 import { WeatherResponse } from "@/types";
 import { useEffect, useState } from "react";
@@ -30,7 +29,7 @@ export default function Home() {
       } catch (err: any) {
         setError(
           err.message ||
-            "Something went wrong. Please ensure stable network connection or try again later."
+          "Something went wrong. Please ensure stable network connection or try again later."
         );
       } finally {
         setIsLoading(false); // Stop loading
@@ -40,21 +39,21 @@ export default function Home() {
     fetchWeather(); // Fetch data on component mount
   }, [city]);
 
-   // Function to handle search input and city change
-   const handleCityChange = (newCity: string) => {
+  // Function to handle search input and city change
+  const handleCityChange = (newCity: string) => {
     setCity(newCity);
   };
 
   return (
     <>
-      <Navbar currentCity={city} onCityChange={handleCityChange}  />
-      <div className="flex flex-col sm:flex-row gap-8 sm:gap-20 px-4 sm:px-10 w-full  ">
+      <Navbar currentCity={city} onCityChange={handleCityChange} />
+      <div className="flex flex-col sm:flex-row gap-8 sm:gap-20 w-full justify-between">
         {isLoading ? (
           <div className="text-center mx-auto my-auto">
-            <SkeletonLoader/>
+            <SkeletonLoader />
           </div>
         ) : error ? (
-          <div className="text-center mt-10 text-red-500">
+          <div className="text-center mt-10 text-white text-2xl mx-auto">
             <p>{error}</p>
           </div>
         ) : (

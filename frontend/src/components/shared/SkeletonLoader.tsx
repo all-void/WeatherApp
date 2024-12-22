@@ -4,7 +4,7 @@ type Props = {};
 
 const SkeletonLoader = (props: Props) => {
   return (
-    <div className="flex flex-row gap-8">
+    <div className="flex flex-row gap-8 w-full">
       <div className="flex items-center justify-center w-full h-48 bg-gray-300 rounded sm:w-96 dark:bg-gray-700 animate-pulse">
         <svg
           className="w-10 h-10 text-gray-200 dark:text-gray-600"

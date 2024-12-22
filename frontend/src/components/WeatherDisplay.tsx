@@ -19,7 +19,7 @@ const WeatherDisplay = (props: Props) => {
     ? (props.weatherdata?.humidity / 1000).toFixed(2)
     : 1;
   return (
-    <div className="flex flex-col gap-8 rounded-lg bg-gray-800 group text-white p-6  shadow-lg w-full max-w-4xl h-full  max-h-[75vh] transform hover:scale-105 transition duration-300">
+    <div className="flex flex-col gap-8 rounded-lg bg-gray-800 group text-white p-6  shadow-lg w-full max-w-4xl h-full transform hover:scale-105 transition duration-300">
       {/* Time/Day AND Suntime */}
       <div className="flex flex-col md:flex-row gap-6 justify-between items-start h-full">
         {/* Time-Day */}
@@ -53,7 +53,7 @@ const WeatherDisplay = (props: Props) => {
           <img
             src={props.weatherdata?.weather.icon}
             alt="weather icon"
-            className="w-20 h-20 object-cover"
+            className="w-20 h-20 object-cover bg-white rounded-full"
           />
           <p className="text-xl font-semibold text-centre">
             {props.weatherdata?.weather.main}
