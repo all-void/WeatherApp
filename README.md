@@ -1,5 +1,5 @@
-### REALTIME WEATHER APP 
-## Project Structure 
+# REALTIME WEATHER APP 
+# Project Structure 
 - Contains Frontend and Backend dir . Start Frontend and Backend independently and then it is good to go !
 
 # Weather App Frontend
@@ -34,20 +34,20 @@ The app will run on `http://localhost:3000`.
 
 ## Challenges Faced
 
-### Learning Node.js and Express 
-- Since I had no experience with Node.js , learning **Node.js** and **Express** was a significant challenge. Understanding how to set up routes, handle requests, and connect to APIs in it was new to me.
+### Learning Node.js and Express
+- Since I had no experience with Node.js , learning **Node.js** and **Express** was a significant challenge.
 ### Set up routes, handle requests, and connect to APIs
 ### Parsing responses and Error handling 
-
 ### Learning NextJs 
 
 
-How I overcame these challenges :
+## How I overcame these challenges :
 - My earlier exposure to similar concepts in Reactjs/Axios/APIs
 - Online research 
 - Constant failing and learning
 - Breaking down concepts into smaller tasks!
 
- ### SCREENSHOT
+ # SCREENSHOT
 
-  [WeatherApp](https://github.com/user-attachments/assets/bbb4df24-eba7-4b7f-99e5-0c661ccfed83)
+
+![WeatherApp](https://github.com/user-attachments/assets/d0809e10-1d4e-44c9-b451-92fad553f9e2)
