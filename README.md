@@ -47,7 +47,7 @@ The app will run on `http://localhost:3000`.
 - Constant failing and learning
 - Breaking down concepts into smaller tasks!
 
- # SCREENSHOT
+ # SCREENSHOTS
 
 
 ![WeatherApp](https://github.com/user-attachments/assets/d0809e10-1d4e-44c9-b451-92fad553f9e2)
