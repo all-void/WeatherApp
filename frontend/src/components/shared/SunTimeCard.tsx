@@ -11,7 +11,7 @@ const SunTimeCard = ({ Icon, label, time }: Props) => {
   return (
     <div className="flex flex-row gap-2 items-center ">
       {/* Icon */}
-      <Icon className="" />
+      <Icon className="text-yellow-300" />
       
       {/* Label and Time */}
       <div className="flex flex-col gap-1">

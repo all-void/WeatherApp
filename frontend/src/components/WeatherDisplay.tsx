@@ -59,8 +59,7 @@ const WeatherDisplay = (props: Props) => {
             {props.weatherdata?.weather.main}
           </p>
           <p className="text-xl font-semibold text-centre">
-            Current Weather is mainly of type
-            {props.weatherdata?.weather.description}
+            {`Current Weather is mainly of type ${props.weatherdata?.weather.description}`}
           </p>
         </div>
       </div>
