@@ -12,11 +12,11 @@ type Props = {
 };
 
 const WeatherDisplay = (props: Props) => {
-  const speedInKmHr = props.weatherdata?.humidity
-    ? (props.weatherdata?.humidity * 3.6).toFixed(2)
+  const speedInKmHr = props.weatherdata?.windspeed
+    ? (props.weatherdata?.windspeed * 3.6).toFixed(2)
     : 0;
   const visibilityInKm = props.weatherdata?.visibility
-    ? (props.weatherdata?.humidity / 1000).toFixed(2)
+    ? (props.weatherdata?.visibility / 1000).toFixed(2)
     : 1;
   return (
     <div className="flex flex-col gap-8 rounded-lg bg-gray-800 group text-white p-6  shadow-lg w-full max-w-4xl h-full transform hover:scale-105 transition duration-300">
