@@ -46,4 +46,8 @@ How I overcame these challenges :
 - My earlier exposure to similar concepts in Reactjs/Axios/APIs
 - Online research 
 - Constant failing and learning
-- Breaking down concepts into smaller tasks
+- Breaking down concepts into smaller tasks!
+
+ ### SCREENSHOT
+
+  [WeatherApp](https://github.com/user-attachments/assets/bbb4df24-eba7-4b7f-99e5-0c661ccfed83)
