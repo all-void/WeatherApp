@@ -74,7 +74,7 @@ const WeatherDisplay = (props: Props) => {
         <WeatherEventCard
           Icon={PiWind}
           label="Wind Speed"
-          data={`${speedInKmHr}%`}
+          data={`${speedInKmHr}km/h`}
         />
         <WeatherEventCard
           Icon={WiBarometer}
