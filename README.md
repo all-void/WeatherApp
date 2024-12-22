@@ -49,3 +49,6 @@ The app will run on `http://localhost:3000`.
 
  # SCREENSHOTS
 
+![WeatherApp(1)](https://github.com/user-attachments/assets/c493dded-b82d-40cc-802c-f7a578a77cc7)
+
+![WeatherApp(2)](https://github.com/user-attachments/assets/f5e28806-55c6-4f29-b444-a39d56618139)
