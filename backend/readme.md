@@ -52,19 +52,5 @@ Your server should now be running at `http://localhost:3001`.
 - **Weather Service**: Fetches weather data from OpenWeather API based on latitude and longitude.
 - **Weather Data Endpoint**: Returns weather information including temperature, pressure, humidity, and sunrise/sunset times.
 
-## Challenges Faced
 
-### Learning Node.js and Express 
-- Since I had no experience with Node.js , learning **Node.js** and **Express** was a significant challenge. Understanding how to set up routes, handle requests, and connect to APIs in it was new to me.
-### Set up routes, handle requests, and connect to APIs
-### Parsing responses and Error handling 
-
-
- 
-
-How I overcame these challenges :
-- My earlier exposure to similar concepts in Reactjs/Axios/APIs
-- Online research 
-- Constant failing and learning
-- Breaking down concepts into smaller tasks
 
